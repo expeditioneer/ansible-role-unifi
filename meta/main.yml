@@ -1,0 +1,22 @@
+---
+
+galaxy_info:
+  role_name: unifi
+  namespace: expeditioneer
+  author: Dennis Lamm
+  description: Installs and configures Unifi Controller
+
+  license: GPL-3.0-only
+
+  min_ansible_version: 4.3
+
+  platforms:
+    - name: Gentoo
+      versions:
+        - all
+
+  galaxy_tags:
+    - network
+    - unifi
+
+dependencies: []
